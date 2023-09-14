@@ -1,0 +1,380 @@
+Name, Disease, Symptom 1, Symptom 2, Symptom 3, Weight (kg), Height (cm), Past Medical History, Family History with Disease, Treatment History, Allergies, Duration of Disease (days), Age, Sex, Pregnant (yes/no), Number of Times Pregnant, Currently Menstruating (yes/no)
+John Doe, Fever, Headache, NaN, Fatigue, 70, 175, NaN, Heart Disease, Yes, Penicillin, 15, 45, Male, No, 0, No
+Jane Smith, Diabetes, Frequent Urination, Thirst, Blurred Vision, 65, 160, NaN, Diabetes, No, Yes, Peanuts, 365, 65, Female, No, 2, No
+Michael Johnson, Hypertension, Headache, Dizziness, NaN, 80, 180, High Cholesterol, NaN, Yes, Shellfish, 120, 80, Male, No, 0, No
+Sarah Davis, Asthma, Shortness of Breath, Wheezing, Cough, 55, 165, NaN, Asthma, Yes, No, Eggs, 240, 55, Female, Yes, 3, Yes
+David Wilson, Arthritis, Joint Pain, Stiffness, Swelling, 75, 170, NaN, Arthritis, No, Yes, Penicillin, 730, 75, Male, No, 0, No
+Jennifer Brown, Migraine, Headache, Nausea, Light Sensitivity, 60, 155, NaN, Migraine, Yes, No, Pollen, 180, 60, Female, Yes, 1, Yes
+Robert Lee, High Cholesterol, Chest Pain, Shortness of Breath, NaN, 85, 175, High Blood Pressure, Heart Disease, Yes, Shellfish, 365, 85, Male, No, 0, No
+Lisa Taylor, Allergies, Sneezing, Runny Nose, Watery Eyes, 65, 160, Pollen Allergy, NaN, No, Peanuts, 30, 65, Female, No, 0, No
+James Harris, Gastritis, Abdominal Pain, Indigestion, Nausea, 70, 175, NaN, Gastritis, Yes, Yes, Aspirin, 90, 70, Male, No, 0, No
+Emily Turner, Anemia, Fatigue, Weakness, Dizziness, 50, 160, Low Iron Levels, Anemia, Yes, No, Penicillin, 180, 50, Female, Yes, 2, Yes
+John Doe, Migraine, Headache, Nausea, NaN, 70, 175, NaN, NaN, Yes, Penicillin, 120, 70, Male, No, 0, No
+Jane Smith, Asthma, Shortness of Breath, Cough, Wheezing, 65, 160, NaN, NaN, Yes, Pollen, 365, 65, Female, No, 0, No
+Michael Johnson, Hypertension, High Blood Pressure, Fatigue, NaN, 80, 180, Diabetes, Yes, Yes, NaN, 730, 80, Male, No, 0, No
+Sarah Davis, Diabetes, Frequent Urination, Thirst, Fatigue, 75, 165, NaN, Mother with Diabetes, Yes, NaN, 3650, 75, Female, No, 0, No
+Chris Brown, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 172, Hay Fever, NaN, No, Grass, 30, 68, Male, No, 0, No
+Amanda Wilson, Flu, Fever, Cough, Sore Throat, 60, 155, NaN, NaN, No, NaN, 14, 60, Female, No, 0, No
+Robert Taylor, Arthritis, Joint Pain, Stiffness, Swelling, 78, 175, Rheumatoid Arthritis, Father with Arthritis, Yes, NaN, 1825, 78, Male, No, 0, No
+Jennifer Lee, Depression, Low Mood, Sleep Problems, Loss of Interest, 63, 158, Anxiety, NaN, Yes, NaN, 730, 63, Female, No, 0, No
+David Martin, Gastritis, Stomach Pain, Nausea, Acid Reflux, 72, 180, NaN, NaN, Yes, Spicy Food, 365, 72, Male, No, 0, No
+Laura Rodriguez, Insomnia, Difficulty Sleeping, Restlessness, NaN, 65, 160, NaN, NaN, Yes, NaN, 90, 65, Female, No, 0, No
+Mark Hernandez, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 77, 175, NaN, NaN, Yes, NaN, 730, 77, Male, No, 0, No
+Karen Gonzalez, Sinusitis, Facial Pain, Nasal Congestion, Headache, 70, 165, NaN, NaN, Yes, Dust, 30, 70, Female, No, 0, No
+Brian Perez, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 85, 185, NaN, NaN, Yes, NaN, 365, 85, Male, No, 0, No
+Lisa Smith, Migraine, Headache, Nausea, NaN, 62, 160, NaN, NaN, Yes, Perfumes, 240, 62, Female, Yes, 1, Yes
+Ryan Johnson, Asthma, Shortness of Breath, Cough, Wheezing, 75, 170, NaN, NaN, Yes, Pollen, 730, 75, Male, No, 0, No
+Lauren Davis, Hypertension, High Blood Pressure, Fatigue, NaN, 70, 175, Obesity, Mother with Hypertension, Yes, NaN, 730, 70, Female, No, 0, No
+Kevin Wilson, Diabetes, Frequent Urination, Thirst, Fatigue, 90, 190, NaN, Father with Diabetes, Yes, NaN, 1825, 90, Male, No, 0, No
+Melissa Brown, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 172, Hay Fever, NaN, Yes, Grass, 30, 68, Female, No, 0, No
+John Doe, Migraine, Headache, Nausea, NaN, 70, 175, NaN, Hypertension, Yes, Penicillin, 120, 70, Male, No, 0, No
+Jane Smith, Diabetes, Thirst, Fatigue, Blurred Vision, 65, 160, None, None, Yes, None, 365, 65, Female, No, 1, Yes
+Michael Johnson, Asthma, Shortness of Breath, Wheezing, Coughing, 75, 180, None, Asthma, Yes, Pollen, 240, 75, Male, No, 0, No
+Sara Lee, Hypertension, None, None, None, 68, 165, High Cholesterol, Hypertension, Yes, Shellfish, 180, 68, Female, No, 3, No
+Alice Brown, Arthritis, Joint Pain, Stiffness, Swelling, 72, 170, None, Rheumatoid Arthritis, Yes, None, 300, 72, Female, No, 2, No
+Bob Anderson, Allergies, Sneezing, Runny Nose, Itchy Eyes, 70, 175, None, None, No, Pollen, 90, 70, Male, No, 0, No
+Emma Davis, Insomnia, Difficulty Sleeping, Fatigue, Irritability, 60, 155, None, None, Yes, None, 60, 60, Female, Yes, 2, Yes
+James Wilson, Depression, Low Mood, Lack of Interest, Fatigue, 80, 185, None, Depression, Yes, None, 150, 80, Male, No, 0, No
+Olivia Taylor, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 65, 160, None, None, Yes, Spicy Foods, 120, 65, Female, No, 0, No
+William Clark, Obesity, Overweight, High BMI, Joint Pain, 90, 190, None, Obesity, Yes, Sugary Foods, 365, 90, Male, No, 0, No
+Sophia Adams, Asthma, Shortness of Breath, Wheezing, Coughing, 68, 167, None, None, Yes, Dust Mites, 240, 68, Female, No, 0, Yes
+Oliver Baker, High Cholesterol, None, None, None, 75, 175, None, High Cholesterol, Yes, None, 180, 75, Male, No, 0, No
+Mia Carter, Diabetes, Thirst, Fatigue, Blurred Vision, 62, 158, None, None, Yes, None, 300, 62, Female, No, 0, Yes
+Aiden Evans, Allergies, Sneezing, Runny Nose, Itchy Eyes, 78, 182, None, None, Yes, Pollen, 90, 78, Male, No, 0, No
+Harper Fisher, Migraine, Headache, Nausea, Light Sensitivity, 55, 150, None, Migraine, Yes, None, 120, 55, Female, No, 0, Yes
+Elijah Green, Hypertension, None, None, None, 73, 178, None, Hypertension, Yes, None, 180, 73, Male, No, 0, No
+Scarlett Hill, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 68, 165, None, Anxiety, Yes, None, 90, 68, Female, No, 0, Yes
+Logan Young, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 80, 185, None, None, Yes, Spicy Foods, 240, 80, Male, No, 0, No
+Grace Harris, Insomnia, Difficulty Sleeping, Fatigue, Irritability, 63, 160, None, None, Yes, None, 300, 63, Female, No, 0, Yes
+Lucas Cooper, Arthritis, Joint Pain, Stiffness, Swelling, 70, 175, None, Osteoarthritis, Yes, None, 365, 70, Male, No, 0, No
+Avery Lee, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Female, No, 0, Yes
+Zoe Adams, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 170, None, None, Yes, Pollen, 180, 72, Female, No, 0, Yes
+Leo Smith, Depression, Low Mood, Lack of Interest, Fatigue, 75, 178, None, Depression, Yes, None, 90, 75, Male, No, 0, No
+Lily Wilson, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 62, 162, None, Anxiety, Yes, None, 300, 62, Female, No, 0, Yes
+Jack Davis, High Cholesterol, None, None, None, 68, 167, None, High Cholesterol, Yes, None, 365, 68, Male, No, 0, No
+Aria Baker, Diabetes, Thirst, Fatigue, Blurred Vision, 80, 185, None, None, Yes, None, 240, 80, Female, No, 0, Yes
+Ethan Evans, Migraine, Headache, Nausea, Light Sensitivity, 70, 175, None, Migraine, Yes, None, 120, 70, Male, No, 0, No
+Nora Fisher, Asthma, Shortness of Breath, Wheezing, Coughing, 60, 155, None, Asthma, Yes, Pollen, 300, 60, Female, No, 0, Yes
+Owen Green, Obesity, Overweight, High BMI, Joint Pain, 78, 182, None, Obesity, Yes, Sugary Foods, 90, 78, Male, No, 0, No
+Mila Harris, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 62, 158, None, None, Yes, Spicy Foods, 180, 62, Female, No, 0, Yes
+Carter Young, Insomnia, Difficulty Sleeping, Fatigue, Irritability, 75, 178, None, None, Yes, None, 365, 75, Male, No, 0, No
+Mason Carter, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Male, No, 0, No
+Charlotte Adams, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 170, None, None, Yes, Pollen, 180, 72, Female, No, 0, Yes
+Mila Harris, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 62, 158, None, None, Yes, Spicy Foods, 365, 62, Female, Yes, 2, Yes
+Ethan Evans, Migraine, Headache, Nausea, Light Sensitivity, 70, 175, None, Migraine, Yes, None, 120, 70, Male, No, 0, No
+Nora Fisher, Asthma, Shortness of Breath, Wheezing, Coughing, 60, 155, None, Asthma, Yes, Pollen, 300, 60, Female, Yes, 1, Yes
+Owen Green, Obesity, Overweight, High BMI, Joint Pain, 78, 182, None, Obesity, Yes, Sugary Foods, 90, 78, Male, No, 0, No
+Liam Hill, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 167, None, None, Yes, Pollen, 180, 68, Male, No, 0, No
+Evelyn Baker, Diabetes, Thirst, Fatigue, Blurred Vision, 80, 185, None, None, Yes, None, 240, 80, Female, No, 0, Yes
+Madison Carter, High Cholesterol, None, None, None, 75, 175, None, High Cholesterol, Yes, None, 180, 75, Female, Yes, 3, Yes
+Mason Adams, Diabetes, Thirst, Fatigue, Blurred Vision, 62, 162, None, None, Yes, None, 300, 62, Male, No, 0, No
+Sofia Fisher, Hypertension, None, None, None, 73, 178, None, Hypertension, Yes, None, 180, 73, Female, No, 0, Yes
+Jack Green, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 68, 165, None, Anxiety, Yes, None, 90, 68, Male, No, 0, No
+Olivia Harris, Insomnia, Difficulty Sleeping, Fatigue, Irritability, 63, 160, None, None, Yes, None, 300, 63, Female, No, 0, Yes
+Lucas Wilson, Arthritis, Joint Pain, Stiffness, Swelling, 70, 175, None, Osteoarthritis, Yes, None, 365, 70, Male, No, 0, No
+Avery Lee, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Male, No, 0, No
+Zoe Adams, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 170, None, None, Yes, Pollen, 180, 72, Female, Yes, 2, Yes
+Leo Smith, Depression, Low Mood, Lack of Interest, Fatigue, 75, 178, None, Depression, Yes, None, 90, 75, Male, No, 0, No
+Lily Wilson, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 62, 162, None, Anxiety, Yes, None, 300, 62, Female, No, 0, Yes
+Jack Davis, High Cholesterol, None, None, None, 68, 167, None, High Cholesterol, Yes, None, 365, 68, Male, No, 0, No
+Aria Baker, Diabetes, Thirst, Fatigue, Blurred Vision, 80, 185, None, None, Yes, None, 240, 80, Female, No, 0, Yes
+Ethan Evans, Migraine, Headache, Nausea, Light Sensitivity, 70, 175, None, Migraine, Yes, None, 120, 70, Male, No, 0, No
+Nora Fisher, Asthma, Shortness of Breath, Wheezing, Coughing, 60, 155, None, Asthma, Yes, Pollen, 300, 60, Female, Yes, 1, Yes
+Owen Green, Obesity, Overweight, High BMI, Joint Pain, 78, 182, None, Obesity, Yes, Sugary Foods, 90, 78, Male, No, 0, No
+Mila Harris, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 62, 158, None, None, Yes, Spicy Foods, 180, 62, Female, Yes, 2, Yes
+Carter Young, Insomnia, Difficulty Sleeping, Fatigue, Irritability, 75, 178, None, None, Yes, None, 365, 75, Male, No, 0, No
+Liam Hill, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 167, None, None, Yes, Pollen, 180, 68, Male, No, 0, No
+Evelyn Baker, Diabetes, Thirst, Fatigue, Blurred Vision, 80, 185, None, None, Yes, None, 240, 80, Female, No, 0, Yes
+Madison Carter, High Cholesterol, None, None, None, 75, 175, None, High Cholesterol, Yes, None, 180, 75, Female, Yes, 3, Yes
+Mason Adams, Diabetes, Thirst, Fatigue, Blurred Vision, 62, 162, None, None, Yes, None, 300, 62, Male, No, 0, No
+Sofia Fisher, Hypertension, None, None, None, 73, 178, None, Hypertension, Yes, None, 180, 73, Female, No, 0, Yes
+Jack Green, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 68, 165, None, Anxiety, Yes, None, 90, 68, Male, No, 0, No
+Olivia Harris, Insomnia, Difficulty Sleeping, Fatigue, Irritability, 63, 160, None, None, Yes, None, 300, 63, Female, No, 0, Yes
+Samantha Clark, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Female, No, 2, Yes
+David Allen, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 75, 180, None, None, Yes, Spicy Foods, 180, 75, Male, No, 0, No
+Ella Mitchell, Diabetes, Thirst, Fatigue, Blurred Vision, 62, 158, None, None, Yes, None, 300, 62, Female, No, 3, Yes
+Henry Wright, Arthritis, Joint Pain, Stiffness, Swelling, 70, 175, None, Osteoarthritis, Yes, None, 365, 70, Male, No, 0, No
+Amelia Turner, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 170, None, None, Yes, Pollen, 180, 72, Female, No, 2, Yes
+Oliver Baker, Obesity, Overweight, High BMI, Joint Pain, 78, 182, None, Obesity, Yes, Sugary Foods, 90, 78, Male, No, 0, No
+Emma Davis, Migraine, Headache, Nausea, Light Sensitivity, 70, 175, None, Migraine, Yes, None, 120, 70, Female, No, 1, Yes
+Sophia Adams, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 68, 165, None, Anxiety, Yes, None, 90, 68, Female, No, 2, Yes
+Lucas Wilson, High Cholesterol, None, None, None, 68, 165, None, High Cholesterol, Yes, None, 180, 68, Male, No, 0, No
+Lily Wilson, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Female, No, 0, Yes
+Jack Davis, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 75, 180, None, None, Yes, Spicy Foods, 180, 75, Male, No, 0, No
+Ella Mitchell, Diabetes, Thirst, Fatigue, Blurred Vision, 62, 158, None, None, Yes, None, 300, 62, Female, No, 2, Yes
+Henry Wright, Arthritis, Joint Pain, Stiffness, Swelling, 70, 175, None, Osteoarthritis, Yes, None, 365, 70, Male, No, 0, No
+Amelia Turner, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 170, None, None, Yes, Pollen, 180, 72, Female, No, 3, Yes
+Oliver Baker, Obesity, Overweight, High BMI, Joint Pain, 78, 182, None, Obesity, Yes, Sugary Foods, 90, 78, Male, No, 0, No
+Emma Davis, Migraine, Headache, Nausea, Light Sensitivity, 70, 175, None, Migraine, Yes, None, 120, 70, Female, No, 0, Yes
+Sophia Adams, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 68, 165, None, Anxiety, Yes, None, 90, 68, Female, No, 1, Yes
+Lucas Wilson, High Cholesterol, None, None, None, 68, 165, None, High Cholesterol, Yes, None, 180, 68, Male, No, 0, No
+Lily Wilson, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Female, No, 0, Yes
+Jack Davis, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 75, 180, None, None, Yes, Spicy Foods, 180, 75, Male, No, 0, No
+Ella Mitchell, Diabetes, Thirst, Fatigue, Blurred Vision, 62, 158, None, None, Yes, None, 300, 62, Female, No, 2, Yes
+Henry Wright, Arthritis, Joint Pain, Stiffness, Swelling, 70, 175, None, Osteoarthritis, Yes, None, 365, 70, Male, No, 0, No
+Amelia Turner, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 170, None, None, Yes, Pollen, 180, 72, Female, No, 3, Yes
+Oliver Baker, Obesity, Overweight, High BMI, Joint Pain, 78, 182, None, Obesity, Yes, Sugary Foods, 90, 78, Male, No, 0, No
+Emma Davis, Migraine, Headache, Nausea, Light Sensitivity, 70, 175, None, Migraine, Yes, None, 120, 70, Female, No, 1, Yes
+Sophia Adams, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 68, 165, None, Anxiety, Yes, None, 90, 68, Female, No, 2, Yes
+Lucas Wilson, High Cholesterol, None, None, None, 68, 165, None, High Cholesterol, Yes, None, 180, 68, Male, No, 0, No
+Lily Wilson, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Female, No, 0, Yes
+Jack Davis, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 75, 180, None, None, Yes, Spicy Foods, 180, 75, Male, No, 0, No
+Samantha Clark, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Female, No, 0, No
+David Allen, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 75, 180, None, None, Yes, Spicy Foods, 180, 75, Male, No, 0, No
+Ella Mitchell, Diabetes, Thirst, Fatigue, Blurred Vision, 62, 158, None, None, Yes, None, 300, 62, Female, No, 0, Yes
+Henry Wright, Arthritis, Joint Pain, Stiffness, Swelling, 70, 175, None, Osteoarthritis, Yes, None, 365, 70, Male, No, 0, No
+Amelia Turner, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 170, None, None, Yes, Pollen, 180, 72, Female, Yes, 2, Yes
+Oliver Baker, Obesity, Overweight, High BMI, Joint Pain, 78, 182, None, Obesity, Yes, Sugary Foods, 90, 78, Male, No, 0, No
+Emma Davis, Migraine, Headache, Nausea, Light Sensitivity, 70, 175, None, Migraine, Yes, None, 120, 70, Female, Yes, 1, Yes
+Sophia Adams, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 68, 165, None, Anxiety, Yes, None, 90, 68, Female, No, 0, Yes
+Lucas Wilson, High Cholesterol, None, None, None, 68, 165, None, High Cholesterol, Yes, None, 180, 68, Male, No, 0, No
+Lily Wilson, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Female, Yes, 3, Yes
+Jack Davis, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 75, 180, None, None, Yes, Spicy Foods, 180, 75, Male, No, 0, No
+Ella Mitchell, Diabetes, Thirst, Fatigue, Blurred Vision, 62, 158, None, None, Yes, None, 300, 62, Female, No, 0, Yes
+Henry Wright, Arthritis, Joint Pain, Stiffness, Swelling, 70, 175, None, Osteoarthritis, Yes, None, 365, 70, Male, No, 0, No
+Amelia Turner, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 170, None, None, Yes, Pollen, 180, 72, Female, Yes, 2, Yes
+Oliver Baker, Obesity, Overweight, High BMI, Joint Pain, 78, 182, None, Obesity, Yes, Sugary Foods, 90, 78, Male, No, 0, No
+Emma Davis, Migraine, Headache, Nausea, Light Sensitivity, 70, 175, None, Migraine, Yes, None, 120, 70, Female, Yes, 1, Yes
+Sophia Adams, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 68, 165, None, Anxiety, Yes, None, 90, 68, Female, No, 0, Yes
+Lucas Wilson, High Cholesterol, None, None, None, 68, 165, None, High Cholesterol, Yes, None, 180, 68, Male, No, 0, No
+Lily Wilson, Asthma, Shortness of Breath, Wheezing, Coughing, 65, 160, None, Asthma, Yes, Pollen, 120, 65, Female, Yes, 2, Yes
+Jack Davis, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 75, 180, None, None, Yes, Spicy Foods, 180, 75, Male, No, 0, No
+Ella Mitchell, Diabetes, Thirst, Fatigue, Blurred Vision, 62, 158, None, None, Yes, None, 300, 62, Female, No, 0, Yes
+Henry Wright, Arthritis, Joint Pain, Stiffness, Swelling, 70, 175, None, Osteoarthritis, Yes, None, 365, 70, Male, No, 0, No
+Amelia Turner, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 170, None, None, Yes, Pollen, 180, 72, Female, Yes, 3, Yes
+Oliver Baker, Obesity, Overweight, High BMI, Joint Pain, 78, 182, None, Obesity, Yes, Sugary Foods, 90, 78, Male, No, 0, No
+Emma Davis, Migraine, Headache, Nausea, Light Sensitivity, 70, 175, None, Migraine, Yes, None, 120, 70, Female, Yes, 2, Yes
+Sophia Adams, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 68, 165, None, Anxiety, Yes, None, 90, 68, Female, No, 0, Yes
+Sophie Turner, Hypertension, High Blood Pressure, Headaches, Fatigue, 68, 163, None, Hypertension, Yes, None, 180, 68, Female, No, 0, No
+Ethan Harris, Insomnia, Difficulty Falling Asleep, Restless Sleep, Daytime Fatigue, 75, 178, None, None, Yes, None, 90, 75, Male, No, 0, No
+Aiden Martinez, Gastritis, Abdominal Pain, Nausea, Bloating, 72, 170, None, Gastritis, Yes, Spicy Foods, 120, 72, Male, No, 0, No
+Harper Taylor, Depression, Low Mood, Loss of Interest, Fatigue, 63, 155, None, Depression, Yes, None, 240, 63, Female, No, 0, Yes, 0, Yes
+Olivia Green, Allergies, Sneezing, Itchy Eyes, Runny Nose, 68, 165, None, None, Yes, Pollen, 180, 68, Female, No, 0, Yes, 0, Yes
+Zoe Lee, Migraine, Severe Headache, Nausea, Sensitivity to Light, 69, 167, None, Migraine, Yes, None, 150, 69, Female, No, 0, Yes, 0, Yes
+Liam Johnson, Diabetes, Frequent Urination, Increased Thirst, Fatigue, 70, 172, None, Diabetes, Yes, None, 365, 70, Male, No, 0, No
+Mason Smith, Asthma, Wheezing, Shortness of Breath, Coughing, 66, 161, None, Asthma, Yes, Pollen, 120, 66, Male, No, 0, No
+Ava Davis, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 64, 158, None, Anxiety, Yes, None, 90, 64, Female, No, 0, Yes, 0, Yes
+Emma Williams, High Cholesterol, None, None, None, 68, 165, None, High Cholesterol, Yes, None, 180, 68, Female, No, 0, Yes, 0, Yes
+Aria Jones, Sinusitis, Congestion, Facial Pain, Postnasal Drip, 69, 166, None, Sinusitis, Yes, None, 150, 69, Female, No, 0, Yes, 0, Yes
+Grace Brown, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 73, 174, None, None, Yes, Spicy Foods, 180, 73, Female, No, 0, Yes, 0, Yes
+Ella Davis, Arthritis, Joint Pain, Stiffness, Swelling, 71, 175, None, Osteoarthritis, Yes, None, 365, 71, Female, No, 0, Yes, 0, Yes
+Mia Smith, Hypothyroidism, Fatigue, Weight Gain, Dry Skin, 66, 160, None, Hypothyroidism, Yes, None, 240, 66, Female, No, 0, Yes, 0, Yes
+Liam Miller, Obesity, Overweight, High BMI, Joint Pain, 80, 185, None, Obesity, Yes, Sugary Foods, 120, 80, Male, No, 0, No
+Ethan Davis, Insomnia, Difficulty Falling Asleep, Restless Sleep, Daytime Fatigue, 76, 180, None, None, Yes, None, 90, 76, Male, No, 0, No
+Sophie Brown, Hypertension, High Blood Pressure, Headaches, Fatigue, 69, 165, None, Hypertension, Yes, None, 180, 69, Female, No, 0, No, 0, No
+Olivia Taylor, Allergies, Sneezing, Itchy Eyes, Runny Nose, 67, 162, None, None, Yes, Pollen, 180, 67, Female, No, 0, Yes, 0, Yes
+Aiden Turner, Gastritis, Abdominal Pain, Nausea, Bloating, 73, 172, None, Gastritis, Yes, Spicy Foods, 120, 73, Male, No, 0, No
+Harper Harris, Depression, Low Mood, Loss of Interest, Fatigue, 64, 157, None, Depression, Yes, None, 240, 64, Female, No, 0, Yes, 0, Yes
+Zoe Martinez, Migraine, Severe Headache, Nausea, Sensitivity to Light, 70, 168, None, Migraine, Yes, None, 150, 70, Female, No, 0, Yes, 0, Yes
+Liam Green, Diabetes, Frequent Urination, Increased Thirst, Fatigue, 72, 174, None, Diabetes, Yes, None, 365, 72, Male, No, 0, No
+Mason Lee, Asthma, Wheezing, Shortness of Breath, Coughing, 68, 166, None, Asthma, Yes, Pollen, 120, 68, Male, No, 0, No
+Ava Johnson, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 66, 163, None, Anxiety, Yes, None, 90, 66, Female, No, 0, Yes, 0, Yes
+Emma Smith, High Cholesterol, None, None, None, 69, 165, None, High Cholesterol, Yes, None, 180, 69, Female, No, 0, Yes, 0, Yes
+Aria Davis, Sinusitis, Congestion, Facial Pain, Postnasal Drip, 70, 167, None, Sinusitis, Yes, None, 150, 70, Female, No, 0, Yes, 0, Yes
+Grace Williams, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 74, 176, None, None, Yes, Spicy Foods, 180, 74, Female, No, 0, Yes, 0, Yes
+Ella Jones, Arthritis, Joint Pain, Stiffness, Swelling, 72, 177, None, Osteoarthritis, Yes, None, 365, 72, Female, No, 0, Yes, 0, Yes
+Mia Brown, Hypothyroidism, Fatigue, Weight Gain, Dry Skin, 67, 162, None, Hypothyroidism, Yes, None, 240, 67, Female, No, 0, Yes, 0, Yes
+Liam Davis, Obesity, Overweight, High BMI, Joint Pain, 82, 188, None, Obesity, Yes, Sugary Foods, 120, 82, Male, No, 0, No
+Ethan Turner, Insomnia, Difficulty Falling Asleep, Restless Sleep, Daytime Fatigue, 77, 182, None, None, Yes, None, 90, 77, Male, No, 0, No
+Sophie Harris, Hypertension, High Blood Pressure, Headaches, Fatigue, 70, 168, None, Hypertension, Yes, None, 180, 70, Female, No, 0, No, 0, No
+Olivia Turner, Allergies, Sneezing, Itchy Eyes, Runny Nose, 66, 160, None, None, Yes, Pollen, 180, 66, Female, No, 0, Yes, 0, Yes
+Aiden Brown, Gastritis, Abdominal Pain, Nausea, Bloating, 74, 176, None, Gastritis, Yes, Spicy Foods, 120, 74, Male, No, 0, No
+Harper Taylor, Depression, Low Mood, Loss of Interest, Fatigue, 65, 159, None, Depression, Yes, None, 240, 65, Female, No, 0, Yes, 0, Yes
+Zoe Lee, Migraine, Severe Headache, Nausea, Sensitivity to Light, 71, 170, None, Migraine, Yes, None, 150, 71, Female, No, 0, Yes, 0, Yes
+Liam Johnson, Diabetes, Frequent Urination, Increased Thirst, Fatigue, 73, 175, None, Diabetes, Yes, None, 365, 73, Male, No, 0, No
+Mason Smith, Asthma, Wheezing, Shortness of Breath, Coughing, 69, 168, None, Asthma, Yes, Pollen, 120, 69, Male, No, 0, No
+Ava Davis, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 67, 163, None, Anxiety, Yes, None, 90, 67, Female, No, 0, Yes, 0, Yes
+Emma Smith, High Cholesterol, None, None, None, 69, 165, None, High Cholesterol, Yes, None, 180, 69, Female, No, 0, Yes, 0, Yes
+Aria Davis, Sinusitis, Congestion, Facial Pain, Postnasal Drip, 70, 167, None, Sinusitis, Yes, None, 150, 70, Female, No, 0, Yes, 0, Yes
+Grace Williams, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 74, 176, None, None, Yes, Spicy Foods, 180, 74, Female, No, 0, Yes, 0, Yes
+Ella Jones, Arthritis, Joint Pain, Stiffness, Swelling, 72, 177, None, Osteoarthritis, Yes, None, 365, 72, Female, No, 0, Yes, 0, Yes
+Mia Brown, Hypothyroidism, Fatigue, Weight Gain, Dry Skin, 67, 162, None, Hypothyroidism, Yes, None, 240, 67, Female, No, 0, Yes, 0, Yes
+Liam Davis, Obesity, Overweight, High BMI, Joint Pain, 82, 188, None, Obesity, Yes, Sugary Foods, 120, 82, Male, No, 0, No
+Ethan Turner, Insomnia, Difficulty Falling Asleep, Restless Sleep, Daytime Fatigue, 77, 182, None, None, Yes, None, 90, 77, Male, No, 0, No
+Sophia Adams, Hypertension, High Blood Pressure, Headaches, Fatigue, 68, 163, None, Hypertension, Yes, None, 180, 68, Female, No, 0, Yes, 0, Yes
+Ethan Harris, Insomnia, Difficulty Falling Asleep, Restless Sleep, Daytime Fatigue, 75, 178, None, None, Yes, None, 90, 75, Male, No, 0, No
+Aiden Martinez, Gastritis, Abdominal Pain, Nausea, Bloating, 72, 170, None, Gastritis, Yes, Spicy Foods, 120, 72, Male, No, 0, No
+Harper Taylor, Depression, Low Mood, Loss of Interest, Fatigue, 63, 155, None, Depression, Yes, None, 240, 63, Female, No, 0, Yes, 0, Yes
+Olivia Green, Allergies, Sneezing, Itchy Eyes, Runny Nose, 68, 165, None, None, Yes, Pollen, 180, 68, Female, No, 0, Yes, 0, Yes
+Zoe Lee, Migraine, Severe Headache, Nausea, Sensitivity to Light, 69, 167, None, Migraine, Yes, None, 150, 69, Female, No, 0, Yes, 0, Yes
+Liam Johnson, Diabetes, Frequent Urination, Increased Thirst, Fatigue, 70, 172, None, Diabetes, Yes, None, 365, 70, Male, No, 0, No
+Mason Smith, Asthma, Wheezing, Shortness of Breath, Coughing, 66, 161, None, Asthma, Yes, Pollen, 120, 66, Male, No, 0, No
+Ava Davis, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 64, 158, None, Anxiety, Yes, None, 90, 64, Female, No, 0, Yes, 0, Yes
+Emma Williams, High Cholesterol, None, None, None, 68, 165, None, High Cholesterol, Yes, None, 180, 68, Female, No, 0, Yes, 0, Yes
+Aria Jones, Sinusitis, Congestion, Facial Pain, Postnasal Drip, 69, 166, None, Sinusitis, Yes, None, 150, 69, Female, No, 0, Yes, 0, Yes
+Grace Brown, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 73, 174, None, None, Yes, Spicy Foods, 180, 73, Female, No, 0, Yes, 0, Yes
+Ella Davis, Arthritis, Joint Pain, Stiffness, Swelling, 71, 175, None, Osteoarthritis, Yes, None, 365, 71, Female, No, 0, Yes, 0, Yes
+Mia Smith, Hypothyroidism, Fatigue, Weight Gain, Dry Skin, 66, 160, None, Hypothyroidism, Yes, None, 240, 66, Female, No, 0, Yes, 0, Yes
+Liam Miller, Obesity, Overweight, High BMI, Joint Pain, 80, 185, None, Obesity, Yes, Sugary Foods, 120, 80, Male, No, 0, No
+Ethan Davis, Insomnia, Difficulty Falling Asleep, Restless Sleep, Daytime Fatigue, 76, 180, None, None, Yes, None, 90, 76, Male, No, 0, No
+Sophie Brown, Hypertension, High Blood Pressure, Headaches, Fatigue, 69, 165, None, Hypertension, Yes, None, 180, 69, Female, No, 0, Yes, 0, Yes
+Olivia Taylor, Allergies, Sneezing, Itchy Eyes, Runny Nose, 67, 162, None, None, Yes, Pollen, 180, 67, Female, No, 0, Yes, 0, Yes
+Aiden Turner, Gastritis, Abdominal Pain, Nausea, Bloating, 73, 172, None, Gastritis, Yes, Spicy Foods, 120, 73, Male, No, 0, No
+Harper Harris, Depression, Low Mood, Loss of Interest, Fatigue, 64, 157, None, Depression, Yes, None, 240, 64, Female, No, 0, Yes, 0, Yes
+Zoe Martinez, Migraine, Severe Headache, Nausea, Sensitivity to Light, 70, 168, None, Migraine, Yes, None, 150, 70, Female, No, 0, Yes, 0, Yes
+Liam Green, Diabetes, Frequent Urination, Increased Thirst, Fatigue, 72, 174, None, Diabetes, Yes, None, 365, 72, Male, No, 0, No
+Mason Lee, Asthma, Wheezing, Shortness of Breath, Coughing, 68, 166, None, Asthma, Yes, Pollen, 120, 68, Male, No, 0, No
+Ava Johnson, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 66, 163, None, Anxiety, Yes, None, 90, 66, Female, No, 0, Yes, 0, Yes
+Emma Smith, High Cholesterol, None, None, None, 69, 165, None, High Cholesterol, Yes, None, 180, 69, Female, No, 0, Yes, 0, Yes
+Aria Davis, Sinusitis, Congestion, Facial Pain, Postnasal Drip, 70, 167, None, Sinusitis, Yes, None, 150, 70, Female, No, 0, Yes, 0, Yes
+Grace Williams, Acid Reflux, Heartburn, Regurgitation, Chest Pain, 74, 176, None, None, Yes, Spicy Foods, 180, 74, Female, No, 0, Yes, 0, Yes
+Ella Jones, Arthritis, Joint Pain, Stiffness, Swelling, 72, 177, None, Osteoarthritis, Yes, None, 365, 72, Female, No, 0, Yes, 0, Yes
+Mia Brown, Hypothyroidism, Fatigue, Weight Gain, Dry Skin, 67, 162, None, Hypothyroidism, Yes, None, 240, 67, Female, No, 0, Yes, 0, Yes
+Liam Davis, Obesity, Overweight, High BMI, Joint Pain, 82, 188, None, Obesity, Yes, Sugary Foods, 120, 82, Male, No, 0, No
+Ethan Turner, Insomnia, Difficulty Falling Asleep, Restless Sleep, Daytime Fatigue, 77, 182, None, None, Yes, None, 90, 77, Male, No, 0, No
+Sophie Harris, Hypertension, High Blood Pressure, Headaches, Fatigue, 70, 168, None, Hypertension, Yes, None, 180, 70, Female, No, 0, Yes, 0, Yes
+Olivia Turner, Allergies, Sneezing, Itchy Eyes, Runny Nose, 66, 160, None, None, Yes, Pollen, 180, 66, Female, No, 0, Yes, 0, Yes
+Aiden Brown, Gastritis, Abdominal Pain, Nausea, Bloating, 74, 176, None, Gastritis, Yes, Spicy Foods, 120, 74, Male, No, 0, No
+Harper Taylor, Depression, Low Mood, Loss of Interest, Fatigue, 65, 159, None, Depression, Yes, None, 240, 65, Female, No, 0, Yes, 0, Yes
+Zoe Lee, Migraine, Severe Headache, Nausea, Sensitivity to Light, 71, 170, None, Migraine, Yes, None, 150, 71, Female, No, 0, Yes, 0, Yes
+Liam Johnson, Diabetes, Frequent Urination, Increased Thirst, Fatigue, 73, 175, None, Diabetes, Yes, None, 365, 73, Male, No, 0, No
+Mason Smith, Asthma, Wheezing, Shortness of Breath, Coughing, 69, 168, None, Asthma, Yes, Pollen, 120, 69, Male, No, 0, No
+Ava Davis, Anxiety, Nervousness, Rapid Heartbeat, Restlessness, 67, 163, None, Anxiety, Yes, None, 90, 67, Female, No, 0, Yes, 0, Yes
+Samantha Adams, Migraine, Headache, Nausea, NaN, 65, 160, NaN, NaN, Yes, Penicillin, 90, 65, Female, No, 0, Yes
+Matthew Wilson, Asthma, Shortness of Breath, Cough, Wheezing, 70, 165, NaN, NaN, Yes, Pollen, 365, 70, Male, No, 0, No
+Olivia Hernandez, Hypertension, High Blood Pressure, Fatigue, NaN, 75, 170, Diabetes, Yes, Yes, NaN, 730, 75, Female, No, 0, Yes
+Ethan Davis, Diabetes, Frequent Urination, Thirst, Fatigue, 80, 175, NaN, Father with Diabetes, Yes, NaN, 1460, 80, Male, No, 0, No
+Emma Rodriguez, Allergies, Sneezing, Runny Nose, Itchy Eyes, 62, 158, Hay Fever, NaN, No, Grass, 30, 62, Female, No, 0, No
+Noah Lee, Flu, Fever, Cough, Sore Throat, 68, 172, NaN, NaN, No, NaN, 14, 68, Male, No, 0, No
+Sophia Smith, Arthritis, Joint Pain, Stiffness, Swelling, 70, 168, Rheumatoid Arthritis, NaN, Yes, NaN, 1825, 70, Female, No, 0, Yes
+Liam Perez, Depression, Low Mood, Sleep Problems, Loss of Interest, 75, 180, Anxiety, NaN, Yes, NaN, 730, 75, Male, No, 0, No
+Ava Brown, Gastritis, Stomach Pain, Nausea, Acid Reflux, 67, 162, NaN, NaN, Yes, Spicy Food, 365, 67, Female, No, 0, Yes
+Logan Martin, Insomnia, Difficulty Sleeping, Restlessness, NaN, 72, 175, NaN, NaN, Yes, NaN, 90, 72, Male, No, 0, No
+Mia Gonzalez, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 85, 185, NaN, NaN, Yes, NaN, 730, 85, Female, No, 0, Yes
+Jackson Hernandez, Sinusitis, Facial Pain, Nasal Congestion, Headache, 72, 175, NaN, NaN, Yes, Dust, 30, 72, Male, No, 0, No
+Sophia Perez, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 78, 170, NaN, NaN, Yes, NaN, 365, 78, Female, No, 0, Yes
+Lucas Davis, Migraine, Headache, Nausea, NaN, 62, 160, NaN, NaN, Yes, Perfumes, 240, 62, Male, No, 0, No
+Emma Johnson, Asthma, Shortness of Breath, Cough, Wheezing, 70, 165, NaN, NaN, Yes, Pollen, 730, 70, Female, No, 0, Yes
+Aiden Martin, Hypertension, High Blood Pressure, Fatigue, NaN, 75, 170, Obesity, Mother with Hypertension, Yes, NaN, 730, 75, Male, No, 0, No
+Olivia Lee, Diabetes, Frequent Urination, Thirst, Fatigue, 85, 180, NaN, Father with Diabetes, Yes, NaN, 1825, 85, Female, No, 0, Yes
+Liam Wilson, Allergies, Sneezing, Runny Nose, Itchy Eyes, 62, 160, Hay Fever, NaN, Yes, Grass, 30, 62, Male, No, 0, No
+Sophia Adams, Migraine, Headache, Nausea, NaN, 65, 160, NaN, NaN, Yes, Penicillin, 90, 65, Female, No, 0, Yes
+Matthew Wilson, Asthma, Shortness of Breath, Cough, Wheezing, 70, 165, NaN, NaN, Yes, Pollen, 365, 70, Male, No, 0, No
+Olivia Hernandez, Hypertension, High Blood Pressure, Fatigue, NaN, 75, 170, Diabetes, Yes, Yes, NaN, 730, 75, Female, No, 0, Yes
+Ethan Davis, Diabetes, Frequent Urination, Thirst, Fatigue, 80, 175, NaN, Father with Diabetes, Yes, NaN, 1460, 80, Male, No, 0, No
+Emma Rodriguez, Allergies, Sneezing, Runny Nose, Itchy Eyes, 62, 158, Hay Fever, NaN, No, Grass, 30, 62, Female, No, 0, No
+Noah Lee, Flu, Fever, Cough, Sore Throat, 68, 172, NaN, NaN, No, NaN, 14, 68, Male, No, 0, No
+Sophia Smith, Arthritis, Joint Pain, Stiffness, Swelling, 70, 168, Rheumatoid Arthritis, NaN, Yes, NaN, 1825, 70, Female, No, 0, Yes
+Liam Perez, Depression, Low Mood, Sleep Problems, Loss of Interest, 75, 180, Anxiety, NaN, Yes, NaN, 730, 75, Male, No, 0, No
+Ava Brown, Gastritis, Stomach Pain, Nausea, Acid Reflux, 67, 162, NaN, NaN, Yes, Spicy Food, 365, 67, Female, No, 0, Yes
+Logan Martin, Insomnia, Difficulty Sleeping, Restlessness, NaN, 72, 175, NaN, NaN, Yes, NaN, 90, 72, Male, No, 0, No
+Mia Gonzalez, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 85, 185, NaN, NaN, Yes, NaN, 730, 85, Female, No, 0, Yes
+Jackson Hernandez, Sinusitis, Facial Pain, Nasal Congestion, Headache, 72, 175, NaN, NaN, Yes, Dust, 30, 72, Male, No, 0, No
+Sophia Perez, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 78, 170, NaN, NaN, Yes, NaN, 365, 78, Female, No, 0, Yes
+Lucas Davis, Migraine, Headache, Nausea, NaN, 62, 160, NaN, NaN, Yes, Perfumes, 240, 62, Male, No
+Ella Davis, Asthma, Shortness of Breath, Cough, Wheezing, 68, 165, NaN, NaN, Yes, Pollen, 365, 32, Female, Yes, 1, Yes, 0
+Liam Taylor, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 73, 170, NaN, NaN, Yes, NaN, 730, 37, Male, No, 0, No
+Emma Brown, Sinusitis, Facial Pain, Nasal Congestion, Headache, 70, 168, NaN, NaN, Yes, Dust, 30, 29, Female, Yes, 2, Yes, 0
+Mason Lee, Allergies, Sneezing, Runny Nose, Itchy Eyes, 72, 175, Hay Fever, NaN, Yes, Grass, 30, 31, Male, No, 0, No
+Ava Davis, Migraine, Headache, Nausea, NaN, 66, 162, NaN, NaN, Yes, Perfumes, 240, 27, Female, Yes, 3, Yes, 0
+Olivia Smith, Diabetes, Frequent Urination, Thirst, Fatigue, 68, 167, NaN, Father with Diabetes, Yes, NaN, 1460, 29, Female, Yes, 0, No, 1
+Sophia Johnson, Arthritis, Joint Pain, Stiffness, Swelling, 75, 178, Rheumatoid Arthritis, NaN, Yes, NaN, 1825, 38, Female, Yes, 1, Yes, 0
+Noah Williams, Depression, Low Mood, Sleep Problems, Loss of Interest, 70, 170, Anxiety, NaN, Yes, NaN, 730, 35, Male, No, 0, No
+Liam Harris, Gastritis, Stomach Pain, Nausea, Acid Reflux, 73, 172, NaN, NaN, Yes, Spicy Food, 365, 36, Male, No, 0, No
+Aiden Davis, Hypertension, High Blood Pressure, Fatigue, NaN, 78, 180, Diabetes, Yes, Yes, NaN, 730, 40, Male, No, 0, No
+Emma Perez, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 167, Hay Fever, NaN, Yes, Grass, 30, 32, Female, Yes, 2, Yes, 0
+Sophia Lee, Migraine, Headache, Nausea, NaN, 65, 160, NaN, NaN, Yes, Penicillin, 90, 31, Female, Yes, 1, Yes, 0
+Olivia Davis, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 72, 175, NaN, NaN, Yes, NaN, 730, 37, Female, Yes, 0, Yes, 0
+Jackson Smith, Asthma, Shortness of Breath, Cough, Wheezing, 70, 168, NaN, NaN, Yes, Pollen, 730, 36, Male, No, 0, No
+Logan Taylor, Sinusitis, Facial Pain, Nasal Congestion, Headache, 68, 165, NaN, NaN, Yes, Dust, 30, 34, Male, No, 0, No
+Ella Harris, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 75, 178, NaN, NaN, Yes, NaN, 365, 39, Female, Yes, 3, Yes, 0
+Mason Brown, Insomnia, Difficulty Sleeping, Restlessness, NaN, 70, 170, NaN, NaN, Yes, NaN, 90, 35, Male, No, 0, No
+Ava Perez, Hypertension, High Blood Pressure, Fatigue, NaN, 78, 180, Diabetes, Yes, Yes, NaN, 730, 41, Female, Yes, 1, Yes, 0
+Emma Smith, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 167, Hay Fever, NaN, Yes, Grass, 30, 33, Female, Yes, 2, Yes, 0
+Liam Taylor, Migraine, Headache, Nausea, NaN, 65, 160, NaN, NaN, Yes, Penicillin, 90, 32, Male, No, 0, No
+Sophia Johnson, Asthma, Shortness of Breath, Cough, Wheezing, 72, 175, NaN, NaN, Yes, Pollen, 365, 38, Female, Yes, 0, Yes, 0
+Olivia Harris, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 70, 168, NaN, NaN, Yes, NaN, 730, 36, Female, Yes, 1, Yes, 0
+Samantha Adams, Migraine, Headache, Nausea, NaN, 65, 160, NaN, NaN, Yes, Penicillin, 90, 28, Female, No, 0, No
+Matthew Wilson, Asthma, Shortness of Breath, Cough, Wheezing, 70, 165, NaN, NaN, Yes, Pollen, 365, 32, Male, No, 0, No
+Olivia Hernandez, Hypertension, High Blood Pressure, Fatigue, NaN, 75, 170, Diabetes, Yes, Yes, NaN, 730, 45, Female, No, 0, No
+Ethan Davis, Diabetes, Frequent Urination, Thirst, Fatigue, 80, 175, NaN, Father with Diabetes, Yes, NaN, 1460, 50, Male, No, 0, No
+Emma Rodriguez, Allergies, Sneezing, Runny Nose, Itchy Eyes, 62, 158, Hay Fever, NaN, No, Grass, 30, 22, Female, No, 0, No
+Noah Lee, Flu, Fever, Cough, Sore Throat, 68, 172, NaN, NaN, No, NaN, 14, 35, Male, No, 0, No
+Sophia Smith, Arthritis, Joint Pain, Stiffness, Swelling, 70, 168, Rheumatoid Arthritis, NaN, Yes, NaN, 1825, 60, Female, No, 0, No
+Liam Perez, Depression, Low Mood, Sleep Problems, Loss of Interest, 75, 180, Anxiety, NaN, Yes, NaN, 730, 40, Male, No, 0, No
+Ava Brown, Gastritis, Stomach Pain, Nausea, Acid Reflux, 67, 162, NaN, NaN, Yes, Spicy Food, 365, 38, Female, No, 0, No
+Logan Martin, Insomnia, Difficulty Sleeping, Restlessness, NaN, 72, 175, NaN, NaN, Yes, NaN, 90, 25, Male, No, 0, No
+Mia Gonzalez, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 85, 185, NaN, NaN, Yes, NaN, 730, 55, Female, No, 0, No
+Jackson Hernandez, Sinusitis, Facial Pain, Nasal Congestion, Headache, 72, 175, NaN, NaN, Yes, Dust, 30, 30, Male, No, 0, No
+Sophia Perez, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 78, 170, NaN, NaN, Yes, NaN, 365, 42, Female, No, 0, No
+Lucas Davis, Migraine, Headache, Nausea, NaN, 62, 160, NaN, NaN, Yes, Perfumes, 240, 27, Male, No, 0, No
+Emma Johnson, Asthma, Shortness of Breath, Cough, Wheezing, 70, 165, NaN, NaN, Yes, Pollen, 730, 35, Female, No, 0, No
+Aiden Martin, Hypertension, High Blood Pressure, Fatigue, NaN, 75, 170, Obesity, Mother with Hypertension, Yes, NaN, 730, 48, Male, No, 0, No
+Olivia Lee, Diabetes, Frequent Urination, Thirst, Fatigue, 85, 180, NaN, Father with Diabetes, Yes, NaN, 1825, 52, Female, No, 0, No
+Liam Wilson, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 172, Hay Fever, NaN, Yes, Grass, 30, 31, Male, No, 0, No
+Aiden Smith, Migraine, Headache, Nausea, NaN, 70, 172, NaN, NaN, Yes, Penicillin, 180, 29, Male, No, 0, No
+Ella Perez, Asthma, Shortness of Breath, Cough, Wheezing, 65, 160, NaN, NaN, Yes, Pollen, 730, 34, Female, No, 0, No
+William Rodriguez, Hypertension, High Blood Pressure, Fatigue, NaN, 80, 180, Diabetes, Yes, Yes, NaN, 730, 49, Male, No, 0, No
+Mia Johnson, Diabetes, Frequent Urination, Thirst, Fatigue, 75, 165, NaN, Father with Diabetes, Yes, NaN, 1460, 33, Female, No, 0, No
+James Davis, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 172, Hay Fever, NaN, Yes, Grass, 30, 28, Male, No, 0, No
+Ella Smith, Flu, Fever, Cough, Sore Throat, 60, 155, NaN, NaN, No, NaN, 14, 26, Female, No, 0, No
+William Martin, Arthritis, Joint Pain, Stiffness, Swelling, 78, 175, Rheumatoid Arthritis, NaN, Yes, NaN, 1825, 59, Male, 0, No, 0, No
+Mia Wilson, Depression, Low Mood, Sleep Problems, Loss of Interest, 63, 158, Anxiety, NaN, Yes, NaN, 730, 37, Female, 0, No, 0, No
+James Hernandez, Gastritis, Stomach Pain, Nausea, Acid Reflux, 72, 180, NaN, NaN, Yes, Spicy Food, 365, 45, Male, 0, No, 0, No
+Sophia Davis, Insomnia, Difficulty Sleeping, Restlessness, NaN, 65, 160, NaN, NaN, Yes, NaN, 90, 24, Female, 0, Yes, 0, Yes
+Olivia Martin, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 77, 175, NaN, NaN, Yes, NaN, 730, 51, Female, 0, Yes, 1, Yes
+Liam Wilson, Sinusitis, Facial Pain, Nasal Congestion, Headache, 70, 165, NaN, NaN, Yes, Dust, 30, 32, Male, 0, No, 0, No
+Ella Davis, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 85, 185, NaN, NaN, Yes, NaN, 365, 41, Female, 0, Yes, 0, Yes
+William Perez, Migraine, Headache, Nausea, NaN, 70, 172, NaN, NaN, Yes, Perfumes, 240, 36, Male, 0, No, 0, No
+Ava Wilson, Asthma, Shortness of Breath, Cough, Wheezing, 65, 160, NaN, NaN, Yes, Pollen, 730, 43, Female, 0, Yes, 0, Yes
+Sophia Johnson, Hypertension, High Blood Pressure, Fatigue, NaN, 80, 180, Diabetes, Yes, Yes, NaN, 730, 47, Female, 0, Yes, 2, Yes
+Olivia Davis, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 172, Hay Fever, NaN, Yes, Grass, 30, 29, Female, 0, Yes, 0, Yes
+Sophia Martin, Flu, Fever, Cough, Sore Throat, 60, 155, NaN, NaN, No, NaN, 14, 23, Female, 0, Yes, 0, Yes
+Olivia Smith, Arthritis, Joint Pain, Stiffness, Swelling, 78, 175, Rheumatoid Arthritis, NaN, Yes, NaN, 1825, 57, Female, 0, Yes, 3, Yes
+Liam Wilson, Depression, Low Mood, Sleep Problems, Loss of Interest, 63, 158, Anxiety, NaN, Yes, NaN, 730, 39, Male, 0, No, 0, No
+Ava Davis, Gastritis, Stomach Pain, Nausea, Acid Reflux, 72, 180, NaN, NaN, Yes, Spicy Food, 365, 46, Female, 0, Yes, 0, Yes
+Emma Rodriguez, Insomnia, Difficulty Sleeping, Restlessness, NaN, 65, 160, NaN, NaN, Yes, NaN, 90, 28, Female, 0, Yes, 0, Yes
+Noah Perez, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 77, 175, NaN, NaN, Yes, NaN, 730, 54, Male, 0, No, 0, No
+Sophia Hernandez, Sinusitis, Facial Pain, Nasal Congestion, Headache, 70, 165, NaN, NaN, Yes, Dust, 30, 31, Female, 0, Yes, 0, Yes
+Olivia Perez, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 85, 185, NaN, NaN, Yes, NaN, 365, 44, Female, 0, Yes, 0, Yes
+Logan Smith, Migraine, Headache, Nausea, NaN, 70, 172, NaN, NaN, Yes, Perfumes, 240, 26, Male, 0, No, 0, No
+Aiden Wilson, Asthma, Shortness of Breath, Cough, Wheezing, 65, 160, NaN, NaN, Yes, Pollen, 730, 30, Male, 0, No, 0, No
+Ella Hernandez, Hypertension, High Blood Pressure, Fatigue, NaN, 80, 180, Diabetes, Yes, Yes, NaN, 730, 53, Female, 0, Yes, 1, Yes
+Liam Johnson, Diabetes, Frequent Urination, Thirst, Fatigue, 75, 165, NaN, Father with Diabetes, Yes, NaN, 1460, 31, Male, 0, No, 0, No
+Ava Smith, Allergies, Sneezing, Runny Nose, Itchy Eyes, 68, 172, Hay Fever, NaN, Yes, Grass, 30, 27, Female, 0, Yes, 0, Yes
+Ella Davis, Flu, Fever, Cough, Sore Throat, 60, 155, NaN, NaN, No, NaN, 14, 21, Female, 0, Yes, 0, Yes
+William Martin, Arthritis, Joint Pain, Stiffness, Swelling, 78, 175, Rheumatoid Arthritis, NaN, Yes, NaN, 1825, 58, Male, 0, No, 0, No
+Mia Wilson, Depression, Low Mood, Sleep Problems, Loss of Interest, 63, 158, Anxiety, NaN, Yes, NaN, 730, 36, Female, 0, No, 0, No
+James Perez, Gastritis, Stomach Pain, Nausea, Acid Reflux, 72, 180, NaN, NaN, Yes, Spicy Food, 365, 50, Male, 0, No, 0, No
+Sophia Davis, Insomnia, Difficulty Sleeping, Restlessness, NaN, 65, 160, NaN, NaN, Yes, NaN, 90, 23, Female, 0, Yes, 0, Yes
+Olivia Martin, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 77, 175, NaN, NaN, Yes, NaN, 730, 56, Female, 0, Yes, 2, Yes
+Liam Wilson, Sinusitis, Facial Pain, Nasal Congestion, Headache, 70, 165, NaN, NaN, Yes, Dust, 30, 33, Male, 0, No, 0, No
+Ava Davis, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 85, 185, NaN, NaN, Yes, NaN, 365, 40, Female, 0, Yes, 0, Yes
+William Perez, Migraine, Headache, Nausea, NaN, 70, 172, NaN, NaN, Yes, Perfumes, 240, 38, Male, 0, No, 0, No
+Ava Wilson, Asthma, Shortness of Breath, Cough, Wheezing, 65, 160, NaN, NaN, Yes, Pollen, 730, 35, Female, 0, Yes, 0, Yes
+Samantha Adams, Migraine, Headache, Nausea, NaN, 65, 160, NaN, NaN, Yes, Penicillin, 90, 28, Female, No, 2, No
+Matthew Wilson, Asthma, Shortness of Breath, Cough, Wheezing, 70, 165, NaN, NaN, Yes, Pollen, 365, 35, Male, No, 0, No
+Olivia Hernandez, Hypertension, High Blood Pressure, Fatigue, NaN, 75, 170, Diabetes, Yes, Yes, NaN, 730, 42, Female, No, 3, No
+Ethan Davis, Diabetes, Frequent Urination, Thirst, Fatigue, 80, 175, NaN, Father with Diabetes, Yes, NaN, 1460, 45, Male, No, 1, No
+Emma Rodriguez, Allergies, Sneezing, Runny Nose, Itchy Eyes, 62, 158, Hay Fever, NaN, No, Grass, 30, 30, Female, No, 0, No
+Noah Lee, Flu, Fever, Cough, Sore Throat, 68, 172, NaN, NaN, No, NaN, 14, 25, Male, No, 0, No
+Sophia Smith, Arthritis, Joint Pain, Stiffness, Swelling, 70, 168, Rheumatoid Arthritis, NaN, Yes, NaN, 1825, 50, Female, No, 0, No
+Liam Perez, Depression, Low Mood, Sleep Problems, Loss of Interest, 75, 180, Anxiety, NaN, Yes, NaN, 730, 36, Male, No, 0, No
+Ava Brown, Gastritis, Stomach Pain, Nausea, Acid Reflux, 67, 162, NaN, NaN, Yes, Spicy Food, 365, 29, Female, No, 0, No
+Logan Martin, Insomnia, Difficulty Sleeping, Restlessness, NaN, 72, 175, NaN, NaN, Yes, NaN, 90, 32, Male, No, 0, No
+Mia Gonzalez, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 85, 185, NaN, NaN, Yes, NaN, 730, 45, Female, No, 0, No
+Jackson Hernandez, Sinusitis, Facial Pain, Nasal Congestion, Headache, 72, 175, NaN, NaN, Yes, Dust, 30, 33, Male, No, 0, No
+Sophia Perez, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 78, 170, NaN, NaN, Yes, NaN, 365, 40, Female, No, 0, No
+Lucas Davis, Migraine, Headache, Nausea, NaN, 62, 160, NaN, NaN, Yes, Perfumes, 240, 38, Male, No, 0, No
+Emma Johnson, Asthma, Shortness of Breath, Cough, Wheezing, 70, 165, NaN, NaN, Yes, Pollen, 730, 31, Female, No, 0, No
+Aiden Martin, Hypertension, High Blood Pressure, Fatigue, NaN, 75, 170, Obesity, Mother with Hypertension, Yes, NaN, 730, 43, Male, No, 0, No
+Olivia Lee, Diabetes, Frequent Urination, Thirst, Fatigue, 85, 180, NaN, Father with Diabetes, Yes, NaN, 1825, 48, Female, No, 0, No
+Liam Wilson, Allergies, Sneezing, Runny Nose, Itchy Eyes, 62, 160, Hay Fever, NaN, Yes, Grass, 30, 27, Male, No, 0, No
+Sophia Adams, Migraine, Headache, Nausea, NaN, 65, 160, NaN, NaN, Yes, Penicillin, 90, 29, Female, No, 0, No
+Matthew Wilson, Asthma, Shortness of Breath, Cough, Wheezing, 70, 165, NaN, NaN, Yes, Pollen, 365, 35, Male, No, 0, No
+Olivia Hernandez, Hypertension, High Blood Pressure, Fatigue, NaN, 75, 170, Diabetes, Yes, Yes, NaN, 730, 42, Female, No, 0, No
+Ethan Davis, Diabetes, Frequent Urination, Thirst, Fatigue, 80, 175, NaN, Father with Diabetes, Yes, NaN, 1460, 45, Male, No, 0, No
+Emma Rodriguez, Allergies, Sneezing, Runny Nose, Itchy Eyes, 62, 158, Hay Fever, NaN, No, Grass, 30, 30, Female, No, 0, No
+Noah Lee, Flu, Fever, Cough, Sore Throat, 68, 172, NaN, NaN, No, NaN, 14, 25, Male, No, 0, No
+Sophia Smith, Arthritis, Joint Pain, Stiffness, Swelling, 70, 168, Rheumatoid Arthritis, NaN, Yes, NaN, 1825, 50, Female, No, 0, No
+Liam Perez, Depression, Low Mood, Sleep Problems, Loss of Interest, 75, 180, Anxiety, NaN, Yes, NaN, 730, 36, Male, No, 0, No
+Ava Brown, Gastritis, Stomach Pain, Nausea, Acid Reflux, 67, 162, NaN, NaN, Yes, Spicy Food, 365, 29, Female, No, 0, No
+Logan Martin, Insomnia, Difficulty Sleeping, Restlessness, NaN, 72, 175, NaN, NaN, Yes, NaN, 90, 32, Male, No, 0, No
+Mia Gonzalez, High Cholesterol, Elevated Cholesterol Levels, Chest Pain, Fatigue, 85, 185, NaN, NaN, Yes, NaN, 730, 45, Female, No, 0, No
+Jackson Hernandez, Sinusitis, Facial Pain, Nasal Congestion, Headache, 72, 175, NaN, NaN, Yes, Dust, 30, 33, Male, No, 0, No
+Sophia Perez, Back Pain, Lower Back Pain, Muscle Stiffness, NaN, 78, 170, NaN, NaN, Yes, NaN, 365, 40, Female, No, 0, No
+Lucas Davis, Migraine, Headache, Nausea, NaN, 62, 160, NaN, NaN, Yes, Perfumes, 240, 38, Male, No, 0, No
+Emma Johnson, Asthma, Shortness of Breath, Cough, Wheezing, 70, 165, NaN, NaN, Yes, Pollen, 730, 31, Female, No, 0, No
+Aiden Martin, Hypertension, High Blood Pressure, Fatigue, NaN, 75, 170, Obesity, Mother with Hypertension, Yes, NaN, 730, 43, Male, No, 0, No
+Olivia Lee, Diabetes, Frequent Urination, Thirst, Fatigue, 85, 180, NaN, Father with Diabetes, Yes, NaN, 1825, 48, Female, No, 0, No
+Liam Wilson, Allergies, Sneezing, Runny Nose, Itchy Eyes, 62, 160, Hay Fever, NaN, Yes, Grass, 30, 27, Male, No, 0, No 
